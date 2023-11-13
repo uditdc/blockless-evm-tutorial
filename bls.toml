@@ -1,0 +1,15 @@
+name = "blockless-evm-tutorial"
+version = "1.0.0"
+
+[deployment]
+nodes = 1
+
+[build]
+dir = "build"
+entry = "blockless-evm-tutorial.wasm"
+command = "npm run build:debug"
+
+[build_release]
+dir = "build"
+entry = "blockless-evm-tutorial.wasm"
+command = "npm run build:release"
